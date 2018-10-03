@@ -153,6 +153,25 @@
             }
         },
         {
+            "Key": "423e0a1b-7562-42ee-b308-2cc6cf03ea47",
+            "Value": {
+                "id": "f9b31c50-4fa3-4516-9b97-76fb42591e66",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/smiley_behaviour\/smiley_behaviour.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "48069948-fe8c-4ac3-8a19-5120acc45e60",
             "Value": {
                 "id": "558f018b-42cc-4b10-ad31-a2aa187114b2",
@@ -439,7 +458,7 @@
         }
     ],
     "script_order": [
-        
+        "423e0a1b-7562-42ee-b308-2cc6cf03ea47"
     ],
     "tutorial": ""
 }
