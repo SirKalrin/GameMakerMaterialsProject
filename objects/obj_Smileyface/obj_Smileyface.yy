@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_Smileyface",
     "eventList": [
-        
+        {
+            "id": "19af4847-86a3-44b9-aba0-80f527d68b91",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "993b9d30-5acc-4504-8c9e-1f0a49258153"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
