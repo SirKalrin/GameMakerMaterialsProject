@@ -3,10 +3,12 @@
 
 // Man skriver en kommentar til sin kode, så man får et bedre overblik kan overskue hvad den gør.
 
-//Smiley Stats
+
+
+// Smiley Stats
 Name = "Mr. Smileyface" // Dette er en variabel, som vi har valgt at kalde "Navn". Den indeholder datatypen "String". 
 						// String er betegnelsen for en hvilken som helst form for tekstværdig. Når man skriver
-						// Noget i gåseøjne ("") fortæller man computeren at man har gemt en string i hukkommelsen.
+						// Noget i gåseøjne ("") fortæller man computeren at man gemmer en string i hukkommelsen. (RAM)
 
 Birthdate = date_current_datetime();	// Denne variabel indeholder et date tidspunkt (Når scriptet bliver startet)
 										// Vi har valgt at kalde den "Birthdate" fordi det er her at smileyens "liv" starter.
@@ -24,6 +26,8 @@ IsAlive = true; // Denne variabel er af datatyoen "Boolean". En boolean kan inde
 				// noget der trigger et event/en handling.
 
 IsHappy = true;
+
+// Happiness related variables initialization
 Happiness_Threshold = 50;
 DecreaseAmount = 30
 Cooldown = 10;

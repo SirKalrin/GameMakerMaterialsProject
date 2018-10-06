@@ -1,3 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
-smiley_behaviour()
+// For hvert et Step (Frame Pr Second) Kører denne kode i obj_Smileyface
+smiley_behaviour() // Script som kører hver frame - Smileyens adfærd er defineret her

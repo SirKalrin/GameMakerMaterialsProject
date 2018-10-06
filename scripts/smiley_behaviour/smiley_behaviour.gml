@@ -1,5 +1,4 @@
 if (IsAlive) {
-	
 	if (Happiness <= 0.0) {
 		IsAlive = false;
 		instance_deactivate_all(false);
@@ -10,16 +9,13 @@ if (IsAlive) {
 		}
 		if (Happiness < Happiness_Threshold && IsHappy) {
 			IsHappy = false;
-			sprite_index = spr_Smiley_Sad
+			sprite_index = spr_Smiley_Sad // Switch sprite
 			show_debug_message("Happy: " + string(IsHappy))
 		}
 		else if (Happiness >= Happiness_Threshold && !IsHappy) {
 			IsHappy = true;
-			sprite_index = spr_Smiley_Happy
+			sprite_index = spr_Smiley_Happy // Switch sprite
 			show_debug_message("Happy: " + string(IsHappy))
-		}
-		if (timer > 0) {
-			timer--;
 		}
 		else if (current_second - time > Cooldown) {
 			Happiness -= DecreaseAmount
@@ -29,4 +25,3 @@ if (IsAlive) {
 		}
 	} 
 }
-						
